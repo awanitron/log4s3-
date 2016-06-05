@@ -22,7 +22,6 @@ An example.py script is included in github. You want change certaing parameters 
 
 
 #Future Plans
-* Support for AWS / EBS (Elastic Block Stotrage)
 * Driver to save Log entries to AWS DynamoDB
 
 
