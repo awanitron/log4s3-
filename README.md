@@ -18,7 +18,7 @@ An example.py script is included in github. You want change certaing parameters 
 ## Prereq.
 * AWS Accoount
 * AWS S3 bucket 
-* AWS IAM account with permission like CreateObject and LitBucket.
+* AWS IAM account with permission like CreateObject and ListBucket.
 
 
 #Future Plans
