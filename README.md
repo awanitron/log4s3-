@@ -2,11 +2,11 @@
 
 
 
-# Saving Log files to AWS S3 
+# AWS S3 interface for Python Logging. 
 ####(hyphen in name is an intended pun :) )
 
 ## Motivation
-Python logging saves files to file system. There is no S3 Driver (log handler) owing to fact that you can't append file on AWS S3. 
+Python logging module gives ability to save files to local file system and other channels like SMTP Socket etc. There is no S3 Driver (log handler) owing to fact that you can't append file on AWS S3. 
 
 ## Design
 Rewrite `doRollOver`  method to copy all files AWS S3. Currently we overwrite files. But we can surely move (rename) files to 
