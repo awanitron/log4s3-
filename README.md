@@ -1,8 +1,9 @@
 # log4s3-
 
-# log4s3
 
-# Saving Log files to AWS S3
+
+# Saving Log files to AWS S3 
+####(hyphen in name is an intended pun :) )
 
 ## Motivation
 Python logging saves files to file system. There is no S3 Driver (log handler) owing to fact that you can't append file on AWS S3. 
